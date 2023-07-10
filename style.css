@@ -78,39 +78,99 @@ span{
     background-color: black;
     color: white;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .right-side-container h3{
     text-align: center;
+    font-size: 13px;
 }
-.right-side-container img{
-    margin: 0 auto;
+.right-side-container{
+    padding-top: 30px;
 }
 .icon{
-    width: 200px;
-    height: 150px;
+    width: 190px;
+    height: 200px;
     background-color: white;
     color: black;
     border-radius: 4px;
+    text-align: center;
     margin-left: 10px;
-    padding: 40px 40px 0 40px;
+    box-shadow: 4px 4px 8px rgb(117, 113, 113);
 }
 .icon img{
     height: 70px;
+    padding-top: 50px;
 }
 .box1{
     display: flex;
     justify-content: space-evenly;
     margin: 10px 0;
-    
-}
-.box1 h3{
-    
 }
 .box2{
     display: flex;
     justify-content: space-around;
+    padding-bottom: 100px;
 }
 
 .bel{
     background-color: black;
 }
+.left-side-container button{
+   padding: 10px 20px;
+   color: gray;
+   border-radius: 25%;
+}
+.extra img{
+    border-radius: 50%;
+    height: 60px;
+}
+.extra{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    border-right: 1px solid orangered;
+    padding-right: 30px;
+}
+.author-container{
+    display: flex;
+    align-items: center;
+
+}
+.author-btn{
+    margin-top:45px;
+    margin-left: 10px;
+}
+/* phone call */
+.appoinment-container{
+    display: flex;
+}
+.appoinment-one img{
+    width: 80px;
+    padding-right: 10px;
+}
+.appoinment-two{
+    border-left: 1px solid white;
+    padding-left: 10px;
+}
+.appoinment-container{
+    width: 70%;
+    background-color: orangered;
+    border-radius: 5px;
+    color: white;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin-top: -60px;
+}
+.know{
+    display: flex;
+}
+.appoinment-three button{
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+}
+/* card design */
