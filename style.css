@@ -202,6 +202,9 @@ span{
     margin-bottom: 10px;
     padding-left: 15px;
 }
+.kano{
+    color: black;
+}
 .card p{
     padding-left: 15px;
 }
@@ -214,4 +217,39 @@ span{
 /*footer*/
 .full{
     background-color: rgb(7, 6, 6);
+}
+.fot h3, h1{
+    color: white;
+
+}
+.footer-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.pol{
+    padding-left: 45px;
+}
+.fot h1{
+   padding-bottom: 30px;
+   font-size: 27px;
+}
+.fot h3{
+    font-size: 16px;
+}
+.class{
+    padding-top: 30px;
+}
+.footer-two p{
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.footer-hr{
+    width: 80%;
+    margin: 0 auto;
+}
+.footer-logo{
+    padding-top: 10px;
 }
