@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navigation bar */
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    height: 55px;
+    align-items: center;
+
+}
+.two ul li{
+    list-style: none;
+    font-size: 17px;
+    padding-right: 15px;
+
+}
+.two li a{
+    text-decoration: none;
+    color: black;
+
+}
+.one{
+    display: flex;
+}
+.one h3{
+    display: flex;
+    align-items: center;
+    color: rgb(35, 197, 197);
+}
+.two ul{
+    display: flex;
+}
+/* 1st section */
+.banner{
+    background-image: url(background.jpg),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-info h1{
+font-size: 55px;
+font-weight: bold;
+padding-bottom: 20px;
+color: white;
+}
+span{
+    color: orangered;
+}
+.banner-info p{
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: white;
+}
+.banner-info{
+    text-align: center;
+}
+.btn1{
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 13px 16px;
+    cursor: pointer;
+}
+.boll{
+    border: none;
+    padding: 13px 16px; 
+    cursor: pointer;
+}
+/* 2nd section */
+.service-container{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.right-side-container h3{
+    text-align: center;
+}
+.right-side-container img{
+    margin: 0 auto;
+}
+.icon{
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    margin-left: 10px;
+    padding: 40px 40px 0 40px;
+}
+.icon img{
+    height: 70px;
+}
+.box1{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+    
+}
+.box1 h3{
+    
+}
+.box2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bel{
+    background-color: black;
+}
